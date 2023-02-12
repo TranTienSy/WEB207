@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/dangky.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Đăng ký</title>
+</head>
+
+<body class="p-0">
+    <div class="container-fluid">
+        <!-- menu -->
+        <nav class="navbar navbar-expand-md sticky-top" style="margin-left: -12px; margin-right: -12px;">
+            <div class="container-fluid container-md">
+                <a class="navbar-brand p-0" href="index.html"><img src="IMG/Logonfinal2.svg" alt="" class="img-fluid"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="offcanvas offcanvas-start" id="offcanvasDarkNavbar" tabindex="-1" style="width: 45%; background:  rgb(189, 160, 234);">
+                    <div class="offcanvas-header">
+                        <button class="btn-close ms-auto " type="button" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body me-auto me-md-0 ms-0 ms-md-auto ">
+                        <ul class="navbar-nav me-5 fw-bold text-black menu ">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link third after">Trang chủ</a>
+                            </li>
+                            <!-- <li class="nav-item"> -->
+                            <li class="nav-item">
+                                <a href="khoaHoc.html" class="nav-link third after">Khóa học</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="gioithieu.html" class="nav-link third after">Giới thiệu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link third after">Hỏi đáp</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Lienhe.html" class="nav-link third after">Liên hệ</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a href="" class="dropdown-toggle nav-link" data-bs-toggle="dropdown" data-bs-target="#taiKhoan">Tài khoản</a>
+                                <ul class="dropdown-menu" id="taiKhoan">
+                                    <li><a href="dangnhap.html" class="dropdown-item">Đăng nhập</a></li>
+                                    <li><a href="dangky.html" class="dropdown-item">Đăng ký</a></li>
+                                    <hr class="dropdown-divider">
+                                    <li><a href="thongtin.html" class="dropdown-item">Đổi thông tin</a></li>
+                                    <li><a href="doiMatKhau.html" class="dropdown-item">Đổi mật khẩu</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row my-5">
+            <article class="col-12 m-auto">
+                <div class="row col-8 m-auto rounded-5" style="box-shadow: 5px 5px 5px 5px gray;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius: 20px;">
+                    <div class="col-12 col-lg-6 bg-white dangNhap mt-4 mb-5 p-5">
+                        <form action="" class="row">
+                            <h2 class="text-center fw-bold mb-4" style="text-shadow: 2px 2px 7px orange">ĐĂNG KÝ TÀI KHOẢN</h2>
+                            <div class="text-center mb-3"><i class="bi bi-facebook h3" style="color: orange;"></i>
+                                <i class="fa-brands fa-google-plus h3 mx-2" style="color: orange;;"></i>
+                                <i class="fa-brands fa-square-instagram h3 accordion" style="color: orange;"></i>
+                            </div>
+                            <span class="text-center d-block text-secondary mb-2">sử dụng Email của bạn để đăng nhập hoặc đăng ký</span>
+                            <div class="col-6 mt-4">
+                                <input type="text" class="form-control rounded-5" placeholder="Họ" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                            </div>
+                            <div class="col-6 mt-4">
+                                <input type="text" class="form-control rounded-5" placeholder="Tên" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                            </div>
+                            <div class="col-12 mt-4">
+                                <input type="text" class="form-control rounded-5" placeholder="Ngày Sinh (dd-MM-yyyy)" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                            </div>
+                            <div class="col-12 mt-4">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                                    <label class="form-check-label" for="inlineRadio1">Nam</label>
+                                </div>
+                                <div class="form-check form-check-inline ">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                                    <label class="form-check-label" for="inlineRadio2">Nữ</label>
+                                </div>
+                            </div>
+
+
+                            <div class="col-12 mt-4">
+                                <input type="text" class="form-control rounded-5" placeholder="Tài Khoản" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                            </div>
+                            <div class="input-group mt-4 ">
+                                <input type="text" class="form-control" style="border-radius: 50px 0px 0px 50px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;" placeholder="Email">
+                                <span class="input-group-text " style="border-left: 0; border-radius: 0px 50px 50px 0px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">@gmail.com</span>
+                            </div>
+
+                            <div class="col-6 mt-4">
+                                <input type="password" class="form-control rounded-5" placeholder="Mật khẩu" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                            </div>
+                            <div class="col-6 mt-4 mb-5">
+                                <input type="password" class="form-control rounded-5" placeholder="Xác nhận mật khẩu" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
+                            </div>
+
+                            <button type="button" class="btn  m-auto d-block w-50 fw-bold mb-2" style="border-radius: 20px; background-color: orange;">ĐĂNG KÝ</button>
+                            <a href="" class="text-center d-block text-secondary mb-4">Quên mật khẩu?</a>
+                        </form>
+                    </div>
+                    <div class="col-12 col-lg-6 px-5 py-5 position-relative rounded-5" style="background-image: linear-gradient(to right, #e68b41cc, #fc464e); ">
+                        <div class="my-5 py-5">
+                            <h2 class="text-center fw-bold text-white mt-5 mb-4 ">Xin chào</h2>
+                            <span class="text-center d-block text-white mb-4">Bạn chưa có tài khoản đăng ký ngay</span>
+                            <a href="dangnhap.html" type="button" class="btn fw-bold w-50 m-auto d-block border" style="border-radius: 20px; border: 2px white;">ĐĂNG NHẬP</a>
+                        </div>
+                    </div>
+            </article>
+            </div>
+
+            <footer class="row">
+                <div class="col-10 mx-auto row mt-5">
+                    <div class="col-md-4 col-12">
+                        <div class="bg-secondary"><img src="IMG/Logonfinal2.svg" alt="" class="m-auto d-block mb-5"></div>
+                        <p class="text-white-50 h6 mt-4"><i class="fa-solid fa-phone me-3"></i>(+84) 326894259</p>
+                        <p class="text-white-50 h6"><i class="fa-solid fa-envelope me-3"></i>Gmail: Trantiensy21112003@gmail.com</p>
+                    </div>
+                    <div class="col-md-3 col-12 mt-md-0 mt-4">
+                        <h5 class="text-white">TIEN SY ACADEMY</h5>
+                        <p class="text-white-50 h6 mt-4">Về chúng tôi</p>
+                        <p class="text-white-50 h6">Bài viết</p>
+                        <p class="text-white-50 h6"><a href="Lienhe.html" class="text-white-50" style="text-decoration: none;">Liên hệ</a></p>
+                    </div>
+                    <div class="col-md-3 col-12 mt-md-0 mt-4">
+                        <h5 class="text-white">LIÊN KẾT</h5>
+                        <p class="text-white-50 h6 mt-4">Hỗ trợ Facebook</p>
+                        <p class="text-white-50 h6">Hỗ trợ Google Meet</p>
+                        <p class="text-white-50 h6">Hỗ trợ Zoom</p>
+                    </div>
+                    <div class="col-md-2 col-12 mt-md-0 mt-4">
+                        <h5 class="text-white">HỖ TRỢ</h5>
+                        <p class="text-white-50 h6 mt-4">Khóa học</p>
+                        <p class="text-white-50 h6">các sự kiện</p>
+                        <p class="text-white-50 h6">Câu hỏi thường gặp</p>
+                    </div>
+                    <hr class="text-white fw-bold mt-5">
+                    <div class="col-10 mx-auto">
+                        <p class="text-white-50 text-center">Bản quyền 2023 của
+                            <span style="color: yellow;">Tien sy Academy.</span> Bảo lưu mọi bản quyền</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+</body>
+
+</html>
